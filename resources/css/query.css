@@ -65,12 +65,13 @@
   .about-right .title {
     padding-top: 5%;
   }
-}
-/* work */
+  /* work */
 .work {
   font-size: 75%;
-  height: 40vh;
+  height: 60vh;
 }
+}
+
 @media screen and (max-width: 480px) {
   html {
     font-size: 70%;
