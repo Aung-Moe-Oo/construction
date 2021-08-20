@@ -28,7 +28,7 @@
   .nav-sticky .mobile-icon {
     color: #fff;
   }
-  nav-sticky .nav-main a:link,
+  .nav-sticky .nav-main a:link,
   .nav-sticky .nav-main a:visited {
     /* padding: 0.5rem; */
     color: #fff;
