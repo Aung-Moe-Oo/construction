@@ -69,6 +69,7 @@
 /* work */
 .work {
   font-size: 75%;
+  height: 40vh;
 }
 @media screen and (max-width: 480px) {
   html {
@@ -78,6 +79,9 @@
     font-size: 150%;
     margin-top: 3rem;
     padding-left: 30%;
+  }
+  .work{
+    height: 40vh;
   }
   .about-icon {
     padding-left: 2%;
