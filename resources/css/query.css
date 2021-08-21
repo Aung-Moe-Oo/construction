@@ -52,6 +52,12 @@
   .nav-main li {
     display: block;
   }
+  .title {
+    font-size: 200%;
+  }
+  .title::after {
+    width: 200px;
+  }
   /* about */
   .about-left,
   .about-right {
@@ -65,27 +71,45 @@
   .about-right .title {
     padding-top: 5%;
   }
+  .question {
+    height: 170px;
+  }
+  .question h2 {
+    padding: 2rem;
+  }
   /* work */
-.work {
-  font-size: 75%;
-  height: 60vh;
-}
+
+  .work p {
+    font-size: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
   html {
     font-size: 70%;
   }
+  .main-btn {
+    padding: 10px;
+    font-size: 80%;
+  }
+  .title::after {
+    width: 150px;
+    margin: 15px auto;
+  }
   .nav-main {
     font-size: 150%;
     margin-top: 3rem;
     padding-left: 30%;
   }
-  .work{
-    height: 40vh;
-  }
   .about-icon {
     padding-left: 2%;
     font-size: 70%;
   }
+  .work {
+    font-size: 80%;
+  }
+  .question {
+    height: 130px;
+  }
 }
+
