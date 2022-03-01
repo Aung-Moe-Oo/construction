@@ -52,6 +52,7 @@
   }
   .nav-main ul {
     display: flex;
+    height: calc(100vh - 3rem);
     flex-direction: column;
     justify-content: space-around;
   }
